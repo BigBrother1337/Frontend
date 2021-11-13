@@ -12,7 +12,7 @@ const alert3 = document.querySelector(".alert3");
 
 const rFunc = async function(){
     tabula.innerHTML = "";
-    tabula.innerHTML = "<tr><th>Ēdiens</th><th>Dzēriens</th><th>Saldais</th><th>Opcijas</th></tr>";
+    tabula.innerHTML = "<tr><th>Ēdiens</th><th>Dzēriens</th><th>Saldais</th></tr>";
     fetch("http://127.0.0.1:3000").then(res =>res.json())
     .then(res=>res.map(e=>{
         tabula.innerHTML += `<tr><td>${e.Ediens}</td><td>${e.Dzeriens}</td><td>${e.Saldais}</td></tr>`

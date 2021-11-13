@@ -3,10 +3,19 @@
     border-radius: 1px;
     
 }
-
+div{
+    text-align: center;
+    padding: 40px;
+    display: inline-block;
+    position: relative;
+}
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid rgb(219, 44, 235);
+    outline: solid white 0.2px;
     border-collapse: collapse;
+    border-color: rgb(219, 44, 235);
+padding-left: 20px;
+padding-right: 20px;
   }
 
 th{
@@ -17,12 +26,45 @@ td{
     border-style: solid;
     border-radius: 1px;
 }
-.alert1{
-    color: red;
+
+input{
+    border: rgb(255, 0, 200) solid 1px;
+    outline: solid white 1px;
 }
-.alert2{
-    color: red;
+div{
+    outline: solid white;
+    color: rgb(255, 0, 242);
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff,  
+    -2px 0 0 #ffffff,
+    2px 0 0 #ffffff,
+    0 2px 0 #ffffff,
+    0 -2px 0 #ffffff; 
+    border:rgb(219, 44, 235) 2px solid;
+    text-align: center;
+    
 }
-.alert3{
-    color: red;
+img{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
 }
+html {
+    text-align: center;
+    background-size: 100%;
+  }
+  span{
+        
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff,  
+    -2px 0 0 #ffffff,
+    2px 0 0 #ffffff,
+    0 2px 0 #ffffff,
+    0 -2px 0 #ffffff; 
+  }
