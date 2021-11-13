@@ -1,0 +1,28 @@
+.tabula{
+    border-style: solid;
+    border-radius: 1px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th{
+    border-style: solid;
+    border-radius: 1px;
+}
+td{
+    border-style: solid;
+    border-radius: 1px;
+}
+.alert1{
+    color: red;
+}
+.alert2{
+    color: red;
+}
+.alert3{
+    color: red;
+}
